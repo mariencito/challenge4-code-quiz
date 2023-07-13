@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+
+header h3 {
+    width:50%;
+    color: blueviolet;
+}
+
+header p {
+    width: 50%;
+    display: flex;
+   justify-content: end; 
+}
+
+.hide{
+    display: none;
+}
+
+#intro-section, #question-section,#initial-section,#highscore-section{
+    text-align: center;
+}
+ 
+#question-section ul{
+    list-style: none;
+}
+
+.choices{
+   margin: 0px;
+   padding: 10px;
+    background-color: blueviolet;
+    text-align: center;
+    width: fit-content;
+    height: auto;
+    
+}

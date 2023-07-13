@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+
+<body>
+    <header>
+        <h3>View Highscores</h3>
+
+        <p>Time: <label for="" id=timer>0</label></p>
+    </header>
+
+    <main>
+        <section id="intro-section">
+            <h1>Coding Quiz Challenge</h1>
+            <p> This is a coding quiz. There are 5 questions. 15 seconds per question. Every time you get an answer wrong 10 seconds will be deducted from your time. Your score is the time that is remaining when you finish.
+            Good Luck.</p>
+            <button id="start-btn">Start the Quiz </button>
+        </section>
+
+        <section id="question-section" class="hide">
+            <h2 id="title"></h2>
+            <ul>
+                <li><button class="choices">choice 1</button></li>
+                <li><button class="choices">choice 2</button></li>
+                <li><button class="choices">choice 3</button></li>
+                <li><button class="choices">choice 4</button></li>
+            </ul>
+        </section>
+
+        <section id="initial-section" class="hide">
+            <h3>Nice Job!</h3>
+            <p>Your final score is <label for="" id="score"></label> </p>
+            Enter Initials: <input type="text" id="initial-input">
+            <button id="save-btn">Save</button>
+        </section>
+
+        <section id="highscore-section" class="hide">
+            <h3>High Scores</h3>
+            <ol>
+
+            </ol>
+            <button id="go-back-bt">Go Back</button>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./assets/script.js"></script>
+</body>
+
+<footer>
+
+
+</footer>
